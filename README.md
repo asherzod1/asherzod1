@@ -1,75 +1,81 @@
-<p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="SA. Graphite and cyan architecture profile header for Sherzod Abdumutalov.">
-</p>
+<a href="https://sherzod.net" aria-label="Open Sherzod Abdumutalov's portfolio">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg">
+    <img src="./assets/profile-header-light.svg" width="100%" alt="SA. Sherzod Abdumutalov, Software Development Team Lead, represented by a layered architecture system.">
+  </picture>
+</a>
 
 # Sherzod Abdumutalov
 
 **Software Development Team Lead**
 
-Backend engineering, software and solution architecture, technical leadership, GIS and data-intensive systems, product engineering, distributed systems, and open source.
+[Portfolio](https://sherzod.net) &middot; [Stack](#technology-system) &middot; [Open Source](#open-source) &middot; [Contact](#contact)
 
-## Engineering focus
+Focused on backend engineering, software architecture, distributed systems, and GIS/data-intensive platforms. Technical leadership and product engineering connect these disciplines into coherent systems.
 
-- System and solution architecture
-- Backend engineering and data architecture
-- Technical leadership
-- Distributed and event-driven systems
-- GIS and data-intensive systems
-- Product and open-source engineering
+## Technology System
 
-## Selected systems
+<p align="center">
+  <img src="./assets/technology-system.svg" width="560" alt="Technology system flowing from product through architecture, services, data, and infrastructure. All technologies are listed in the expandable sections below.">
+</p>
 
-**[WaterCadastre](https://suvkadastr.uz/)**<br>
-*GovTech / GIS | Team Lead; Backend and Solution Architecture*<br>
-A water-resource and cadastral information platform combining domain workflows with geospatial data management. The public engineering scope covers domain decomposition, data-intensive backend architecture, GIS, asynchronous processing, and technical leadership.<br>
-Technology: Django, Django REST Framework, PostgreSQL/PostGIS, Redis, Celery.
+<details open>
+<summary><strong>Backend systems</strong></summary>
 
-**[Agro Platforma](https://agroplatforma.uz/)**<br>
-*AgriTech / GovTech | Software Engineer*<br>
-A multi-module agricultural operations platform combining operational workflows, reporting, and data-intensive backend work. The public contribution scope covers backend/API evolution, database-side operational reporting, and asynchronous workflow support.<br>
-Technology: Django, Django REST Framework, PostgreSQL, Redis, Celery.
+`Python` `Django` `Django REST Framework` `FastAPI`
 
-**Dcard**<br>
-*Product Engineering | Project Initiator; Technical Product Lead; Solution Architect; Sole Backend and Web Engineer*<br>
-A subscription-based digital discount and loyalty platform connecting users with partner offers. Backend and web ownership included server-side contracts and mobile integration boundaries; a dedicated mobile developer implemented the mobile applications.<br>
-[Apple App Store](https://apps.apple.com/uz/app/dcard-%D0%B0%D0%B1%D0%BE%D0%BD%D0%B5%D0%BC%D0%B5%D0%BD%D1%82-%D0%BD%D0%B0-%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8E/id6759165589) | [Google Play](https://play.google.com/store/apps/details?id=com.xml.dcard)
+API-oriented backend systems with explicit boundaries, domain decomposition, and maintainable service contracts.
 
-**django-extensions**<br>
-*Open Source | Contributor*<br>
-A merged upstream contribution addressing specific Django 6 compatibility regressions while preserving compatibility with earlier supported Django versions.<br>
-[Pull request #1979](https://github.com/django-extensions/django-extensions/pull/1979) | [Merged commit](https://github.com/django-extensions/django-extensions/commit/32ddfb0499bec7f39f9fbb44568d2781cecd1f32)
+</details>
 
-**Cocooning**<br>
-*AgriTech / GovTech | Team Lead; Backend and Solution Architecture*<br>
-An integrated sericulture operations management platform for digitizing operations and coordinating domain workflows across the production lifecycle.
+<details>
+<summary><strong>Data and GIS</strong></summary>
 
-**Logging & Fraud Detection**<br>
-*Security / Observability | Project Initiator; Team Lead; Solution Architect*<br>
-A reusable platform for centralized user activity logging, audit analysis, and fraud detection across multiple information systems, described publicly at the conceptual event-driven architecture level.
+`PostgreSQL` `PostGIS` `Redis` `MongoDB`
 
-## Open-source contribution
+Relational, geospatial, cache, and document data concerns shaped around data-intensive workflows.
 
-[django-extensions PR #1979](https://github.com/django-extensions/django-extensions/pull/1979) delivered focused compatibility changes across signal receiver tuples, repeated `RandomCharField` pre-save behavior, version-aware `CheckConstraint` configuration, and `AutoField` / `BigAutoField` test expectations.
+</details>
 
-- Goal: support Django 6 while preserving compatibility with earlier supported Django versions
-- Validation under Django 6.0.3: **533 passed, 4 skipped, 4 xfailed, 6 xpassed**
-- Review: public maintainer approval; merged to `django-extensions:main` on May 21, 2026
+<details>
+<summary><strong>Async and distributed</strong></summary>
 
-## Technology focus
+`Celery` `RabbitMQ` `REST APIs` `Event-driven systems`
 
-- **Backend:** Django, Django REST Framework, FastAPI
-- **Data / GIS:** PostgreSQL, PostGIS, MongoDB
-- **Async / Distributed:** Redis, Celery, RabbitMQ; event-driven and asynchronous processing
-- **Product / Frontend:** React, server-rendered interfaces, backend/web platforms, mobile integration contracts
+Background processing and event-driven boundaries for asynchronous workflows and cross-system communication.
 
-## Credentials
+</details>
 
-- IBM Back-End Development - IBM
-- IELTS - Overall Band 6.0 - IDP Education Ltd
+<details>
+<summary><strong>Product interfaces</strong></summary>
+
+`TypeScript` `React` `Next.js`
+
+Typed interfaces and server-rendered product surfaces aligned with backend contracts.
+
+</details>
+
+<details>
+<summary><strong>Engineering environment</strong></summary>
+
+`Docker` `Linux` `Git` `GitHub Actions`
+
+Versioned, containerized engineering workflows with automated checks.
+
+</details>
+
+## Open Source
+
+<details>
+<summary><strong>django-extensions &middot; Django 6 compatibility</strong></summary>
+
+A merged upstream contribution addressing specific Django 6 regressions across signal, field, constraint, and primary-key compatibility while preserving backward compatibility.
+
+[Pull request #1979](https://github.com/django-extensions/django-extensions/pull/1979) &middot; [Merged commit](https://github.com/django-extensions/django-extensions/commit/32ddfb0499bec7f39f9fbb44568d2781cecd1f32) &middot; [Detailed portfolio case study](https://sherzod.net/work/django-extensions-django-6-compatibility)
+
+</details>
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/sherzod-abdumutalov-809168224/)
-- [Telegram: @asherzod1](https://t.me/asherzod1)
-- [Phone: +998 77 707 70 09](tel:+998777077009)
-- [GitHub: @asherzod1](https://github.com/asherzod1)
+[Portfolio](https://sherzod.net) &middot; [LinkedIn](https://www.linkedin.com/in/sherzod-abdumutalov-809168224/) &middot; [Telegram](https://t.me/asherzod1)

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="700" viewBox="0 0 520 700" role="img" aria-labelledby="title description">
+  <title id="title">Technology system map</title>
+  <desc id="description">A five-layer architecture flow from product to architecture, services, data, and infrastructure.</desc>
+  <style>
+    :root { color-scheme: light dark; --bg: #f7f9fa; --panel: #ffffff; --text: #17232b; --muted: #51636c; --line: #bcc8ce; --accent: #087f84; --soft: #e4f3f3; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0d141a; --panel: #121c23; --text: #f5f7f8; --muted: #aebbc1; --line: #34454e; --accent: #43d7d1; --soft: #123034; } }
+  </style>
+  <rect width="620" height="700" fill="var(--bg)"/>
+  <rect x="0.5" y="0.5" width="519" height="699" fill="none" stroke="var(--line)"/>
+  <text x="28" y="42" fill="var(--muted)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="0">TECHNOLOGY SYSTEM / 05 LAYERS</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <rect x="28" y="66" width="464" height="96" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+    <rect x="28" y="66" width="8" height="96" fill="var(--accent)"/>
+    <text x="56" y="105" fill="var(--text)" font-size="20" font-weight="700" letter-spacing="0">PRODUCT</text>
+    <text x="56" y="135" fill="var(--muted)" font-size="16" letter-spacing="0">TypeScript / React / Next.js</text>
+
+    <path d="M260 162V186" stroke="var(--accent)" stroke-width="2"/>
+    <path d="M254 180L260 186L266 180" fill="none" stroke="var(--accent)" stroke-width="2"/>
+
+    <rect x="28" y="186" width="464" height="96" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+    <rect x="28" y="186" width="8" height="96" fill="var(--accent)" opacity=".86"/>
+    <text x="56" y="225" fill="var(--text)" font-size="20" font-weight="700" letter-spacing="0">ARCHITECTURE</text>
+    <text x="56" y="255" fill="var(--muted)" font-size="16" letter-spacing="0">REST APIs / Event-driven systems</text>
+
+    <path d="M260 282V306" stroke="var(--accent)" stroke-width="2"/>
+    <path d="M254 300L260 306L266 300" fill="none" stroke="var(--accent)" stroke-width="2"/>
+
+    <rect x="28" y="306" width="464" height="96" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+    <rect x="28" y="306" width="8" height="96" fill="var(--accent)" opacity=".72"/>
+    <text x="56" y="345" fill="var(--text)" font-size="20" font-weight="700" letter-spacing="0">SERVICES</text>
+    <text x="56" y="375" fill="var(--muted)" font-size="16" letter-spacing="0">Python / Django / DRF / FastAPI / Celery</text>
+
+    <path d="M260 402V426" stroke="var(--accent)" stroke-width="2"/>
+    <path d="M254 420L260 426L266 420" fill="none" stroke="var(--accent)" stroke-width="2"/>
+
+    <rect x="28" y="426" width="464" height="96" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+    <rect x="28" y="426" width="8" height="96" fill="var(--accent)" opacity=".58"/>
+    <text x="56" y="465" fill="var(--text)" font-size="20" font-weight="700" letter-spacing="0">DATA</text>
+    <text x="56" y="495" fill="var(--muted)" font-size="16" letter-spacing="0">PostgreSQL / PostGIS / Redis / MongoDB</text>
+
+    <path d="M260 522V546" stroke="var(--accent)" stroke-width="2"/>
+    <path d="M254 540L260 546L266 540" fill="none" stroke="var(--accent)" stroke-width="2"/>
+
+    <rect x="28" y="546" width="464" height="118" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+    <rect x="28" y="546" width="8" height="118" fill="var(--accent)" opacity=".44"/>
+    <text x="56" y="585" fill="var(--text)" font-size="20" font-weight="700" letter-spacing="0">INFRASTRUCTURE</text>
+    <text x="56" y="615" fill="var(--muted)" font-size="16" letter-spacing="0">RabbitMQ / Docker / Linux</text>
+    <text x="56" y="641" fill="var(--muted)" font-size="16" letter-spacing="0">Git / GitHub Actions</text>
+  </g>
+</svg>

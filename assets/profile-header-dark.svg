@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title description">
+  <title id="title">Sherzod Abdumutalov profile header</title>
+  <desc id="description">A graphite engineering interface with an SA monogram, Sherzod Abdumutalov's name and role, and a five-layer architecture core.</desc>
+  <style>
+    .layer-1 { animation: separate-1 14s ease-in-out infinite; transform-origin: 764px 140px; }
+    .layer-2 { animation: separate-2 14s ease-in-out infinite; transform-origin: 764px 140px; }
+    .scan { animation: scan 12s ease-in-out infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    @keyframes separate-1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-5px, -3px); } }
+    @keyframes separate-2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(4px, 2px); } }
+    @keyframes scan { 0%, 12% { transform: translateX(-92px); opacity: 0; } 20%, 80% { opacity: .6; } 88%, 100% { transform: translateX(92px); opacity: 0; } }
+    @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .layer-1, .layer-2, .scan, .pulse { animation: none; } }
+  </style>
+  <defs>
+    <clipPath id="core-clip"><rect x="650" y="54" width="228" height="172"/></clipPath>
+  </defs>
+  <rect width="960" height="280" fill="#0d141a"/>
+  <rect x="0.5" y="0.5" width="959" height="279" fill="none" stroke="#293942"/>
+  <path d="M44 42H188" stroke="#43d7d1" stroke-width="3"/>
+  <path d="M200 42H364" stroke="#50626c"/>
+  <text x="44" y="111" fill="#f5f7f8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="58" font-weight="700" letter-spacing="0">SA<tspan fill="#43d7d1">.</tspan></text>
+  <text x="44" y="169" fill="#f5f7f8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="36" font-weight="650" letter-spacing="0">Sherzod Abdumutalov</text>
+  <text x="46" y="205" fill="#aebbc1" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" letter-spacing="0">Software Development Team Lead</text>
+  <text x="46" y="242" fill="#71838c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0">BACKEND / ARCHITECTURE / SYSTEMS</text>
+
+  <path d="M564 140H650M878 140H920" fill="none" stroke="#50626c"/>
+  <circle cx="564" cy="140" r="3" fill="#43d7d1"/>
+  <circle class="pulse" cx="920" cy="140" r="4" fill="#43d7d1"/>
+  <g fill="none" stroke="#43d7d1">
+    <rect class="layer-1" x="650" y="54" width="228" height="172" opacity=".18"/>
+    <rect x="670" y="70" width="188" height="140" opacity=".25"/>
+    <rect x="690" y="86" width="148" height="108" opacity=".34"/>
+    <rect x="710" y="102" width="108" height="76" opacity=".48"/>
+    <rect class="layer-2" x="730" y="118" width="68" height="44" opacity=".76"/>
+  </g>
+  <g clip-path="url(#core-clip)">
+    <rect class="scan" x="762" y="54" width="2" height="172" fill="#43d7d1" opacity=".6"/>
+  </g>
+  <rect x="757" y="133" width="14" height="14" fill="#43d7d1"/>
+  <text x="650" y="248" fill="#71838c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0">ARCHITECTURE CORE / 05</text>
+</svg>
